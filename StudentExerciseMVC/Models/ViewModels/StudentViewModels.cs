@@ -1,15 +1,15 @@
 ﻿using Microsoft.AspNetCore.Mvc.Rendering;
-using StudentExerciseMVC.Models;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using Microsoft.Data.SqlClient;
 
-namespace StudentExercsieMVC.Models.ViewModels
+namespace StudentExerciseMVC.Models.ViewModels
 {
-    public class InstructorViewModel
+    public class StudentViewModel
     {
-        public Instructor Instructor { get; set; }
+        public Student Student { get; set; }
         public List<SelectListItem> Cohorts { get; set; }
     }
 }
