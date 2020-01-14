@@ -1,4 +1,5 @@
-﻿using System;
+﻿using StudentExercises.Models;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
@@ -13,5 +14,6 @@ namespace StudentExerciseMVC.Models
         public string SlackHandle { get; set; }
         public int CohortId { get; set; }
         public Cohort Cohort { get; set; }
+        public List<Exercise> Exercises { get; set; } = new List<Exercise>();
     }
 }
