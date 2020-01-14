@@ -6,6 +6,7 @@
 *.user
 *.sln.docstates
 .vs
+.vs/StudentExerciseMVC/v16/Server/sqlite3/storage.ide-wal
 
 
 # Build results
